@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
 console.log('Setting up routes...');
 
 // Import and use Routes - Uncomment these lines after creating the route files
-/*
+
 const clothesRoutes = require('./routes/clothes');
 const uploadRoutes = require('./routes/upload');
 const recommendRoutes = require('./routes/recommend');
@@ -53,7 +53,7 @@ const recommendRoutes = require('./routes/recommend');
 app.use('/api/clothes', clothesRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/recommend', recommendRoutes);
-*/
+
 
 // Start the server
 app.listen(PORT, () => {
